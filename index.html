@@ -1,0 +1,45 @@
+
+<!-- Hello !
+
+Here is the reference from the unclickable NO button  https://codepen.io/swshadows/details/zYEaOgQ 
+
+I saw the idea and decided to use it in this project
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Coding Cheat Sheets</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="homeLink" class="menu">Home</a></li>
+            <li><a href="html.html" id="htmlLink" class="menu">HTML Cheat Sheet</a></li>
+            <li><a href="css.html" id="cssLink" class="menu">CSS Cheat Sheet</a></li>
+            <li><a href="javascript.html" id="javascriptLink" class="menu">JavaScript Cheat Sheet</a></li>
+            <li><a href="#" id="themeToggle" class="menu">Toggle Theme</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="areYouReady">
+            <h1>Are you ready to learn?</h1>
+        </div>
+
+        <button id="yesbtn">Yes</button>
+        <button onmousemove="random(this)" onclick="alert('Are you cheating?')" >No</button>
+        
+    </main>
+    <script src="script.js"></script>
+    
+
+
+</body>
+</html>
